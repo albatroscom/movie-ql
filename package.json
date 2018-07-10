@@ -1,0 +1,22 @@
+{
+  "name": "movie-ql",
+  "version": "1.0.0",
+  "description": "movie api with graphql",
+  "main": "index.js",
+  "repository": "https://github.com/albatroscom/movie-ql.git",
+  "author": "albatroscom",
+  "license": "MIT",
+  "dependencies": {
+    "global": "^4.3.2",
+    "graphql-yoga": "^1.14.12",
+    "nodemon": "^1.17.5"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
+  }
+}
